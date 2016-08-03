@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAspnetApp", "DemoAspnetApp\DemoAspnetApp.csproj", "{3BB561E0-1B3C-4851-BBC6-449BF4AE2671}"
-EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureResourceGroup1", "AzureResourceGroup1\AzureResourceGroup1.deployproj", "{6E89DB85-DB12-401B-B5BC-34AE19E2E7AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E4530B8-97AE-4DCB-98DC-6515FB446B35}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +16,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3BB561E0-1B3C-4851-BBC6-449BF4AE2671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BB561E0-1B3C-4851-BBC6-449BF4AE2671}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BB561E0-1B3C-4851-BBC6-449BF4AE2671}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BB561E0-1B3C-4851-BBC6-449BF4AE2671}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E89DB85-DB12-401B-B5BC-34AE19E2E7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E89DB85-DB12-401B-B5BC-34AE19E2E7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E89DB85-DB12-401B-B5BC-34AE19E2E7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
